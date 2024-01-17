@@ -2,9 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | Keerthi</title>
+        <title>Contact Us</title>
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"/>
@@ -13,6 +12,7 @@
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
         <link href="/styles.css" rel="stylesheet"/>
     </head>
     <body>
@@ -22,12 +22,12 @@
             </div>
             <ul class=" list-non-bullet nav-pills">
                 <li class="inline">
-                    <a class="link link-active" href="/">home</a>
+                    <a class="link" href="/">home</a>
                 </li>
                 <li class="inline">
                     <a class="link" href="/projects.html">projects</a>
                 </li>
-                <li class="inline">
+                <li class="inline link-active">
                     <a class="link" href="/blogs.html">blogs</a>
                 </li>
                 <li class="inline">
@@ -35,39 +35,38 @@
                 </li>
             </ul>
         </nav>
-
-        <header class="html">
-            <img class="html-img" src="/images/html.svg"/>
-            <h1 class="html-heading">Keerthi the <span class="heading-inverted">
-                    web developer
-                </span>
-            </h1>
-        </header>
-
-        <section class="section  ow">
-            <div class="container container-center">
-                <h1>technologies</h1>
-                <p>I'm familiar with HTML5, CSS3, JavaScript, NodeJS, ReactJS and Mongodb</p>
+        <section class="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="uname" placeholder="UserName" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="uname" placeholder="Email Id" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="password" name="uname" placeholder="Password" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="uname" placeholder="Phone No" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea id="Message" class="form-control">Message</textarea>
+                                </div>
+                            </div>
+                            <input type="submit" class="btn btn-primary" value="submit">
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
-
-        <section class="section">
-            <div class="container container-center">
-                <h1>projects</h1>
-                <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
-                <a class="link primary-link" href="/projects.html">projects</a>
-            </div>
-        </section>
-
-        <section class="section  ow">
-            <div class="container container-center">
-                <h1>blogs</h1>
-                <p>I am also working on some technical and non techincal blogs. I like to
-                    document my journey of learning.</p>
-                <a class="link secondary-link" href="/blogs.html">blogs</a>
-            </div>
-        </section>
-
         <footer class="footer">
             <h2 class="footer-heading">socail media sites</h2>
             <ul class="list-non-bullet">
